@@ -25,7 +25,7 @@ const HeroSection = () => {
     >
       <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-center">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-          Hey, I'm{" "}
+          Hey, I&apos;m{" "}
         </span>
         <br />
         <TypeAnimation
@@ -64,6 +64,6 @@ const HeroSection = () => {
     </motion.div>
   </main>
   );
-};
+}
 
 export default HeroSection;
